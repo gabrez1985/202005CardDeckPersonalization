@@ -25,10 +25,6 @@ def get_pixel(image, i, j):
     return pixel
 
 
-nuevaimagen = create_image(150, 200, (0, 0, 0, 0))
-save_image(nuevaimagen, 'Imagenes/nuevaimagenprueba.png')
-
-
 # cambia del color blanco de un fondo a un nuevo color que se debe definir
 def cambiarcolorfondo(image, color=(255, 255, 255, 255)):
 
